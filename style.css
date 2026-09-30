@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+}
+
+.rebecca{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-size: 40px;
+    color: rebeccapurple;
+}
+
+.rebecca2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.rebecca a{
+    color: rebeccapurple;
+    text-decoration: none;
+
+}
+
+.rebecca2 a:hover{
+    color:#9A3D98
+
+}
