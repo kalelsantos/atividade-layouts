@@ -1,6 +1,92 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
+body{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+header{
+    height: 20vh;
+    background: #A987C5;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+}
+
+.d-he{
+     width: 100px;
+    height: 100px;
+    background-color: #663399;
+    border-radius: 50%;
+}
+
+main{
+    height: 20vh;
+    background: rgb(152, 231, 178);
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.d-ma{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(52, 185, 126);
+    border-radius: 50%;
+}
+
+nav{
+    height: 20vh;
+    background: rgb(231, 152, 152);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-na{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(185, 52, 52);
+    border-radius: 50%;
+}
+
+aside{
+    height: 20vh;
+    background: rgb(219, 231, 152);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d-as{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(185, 185, 52);
+    border-radius: 50%;
+} 
+
+footer{
+    height: 20vh;
+    background: rgb(152, 164, 231);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.d-fo{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(52, 52, 185);
+    border-radius: 50%;
+}
