@@ -1,17 +1,17 @@
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     background-color: bisque;
 }
 
-.rebecca{
+.container {
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -23,23 +23,19 @@ body{
     color: rebeccapurple;
 }
 
-.rebecca2{
+.menu {
     display: flex;
     flex-direction: column;
     gap: 20px;
     justify-content: center;
     align-items: center;
-
 }
 
-
-.rebecca a{
+.container a {
     color: rebeccapurple;
     text-decoration: none;
-
 }
 
-.rebecca2 a:hover{
-    color:#9A3D98
-
+.menu a:hover {
+    color: #9A3D98;
 }
